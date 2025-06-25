@@ -9,7 +9,7 @@ export type UserType = {
 function User({ id, name, username, email }: UserType) {
   return (
     <div
-      className={"bg-gray-200 p-4 rounded-md outline-1 solid outline-gray-300"}
+      className={"bg-gray-200 p-4 rounded-md outline-1 solid outline-gray-300 text-black"}
     >
       <p>{id}</p>
       <p>{name}</p>
